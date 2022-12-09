@@ -92,25 +92,57 @@ header .header {
     display: flex;
     margin-top: 20px;
 }
-.box {
-    display: flex;
-}
 
-.projects > .boxs > .box > a {
+.projects > .boxs > a {
    text-decoration: none;
-
-   
-}
-.bck {
-    position: relative;
-    left: -285px;
-    background-clip: content-box;
+   margin: 4px;
+   width: 15%;
 }
 
-.projects > .boxs > .box > a > p {
+
+.projects > .boxs  > a > img {
+     width: 100%;
+     cursor: pointer;
+}
+
+.projects > .boxs  > a > .texts {
    color:white;
    font-size: 20px;
    position: relative;
-   bottom:40px;
+   bottom: 60px;
    left: 20px;
+   font-weight: 700;
  }
+
+ .projects > .boxs  > a > .texts > .des {
+    color: #706B6B;
+    font-weight: 400;
+    font-size: 13px;
+ }
+
+
+ .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+ }
+
+
+ .about > .side1 {
+    color: white;
+    font-size: 23px;
+ }
+
+ .about > .side1 > .text {
+    font-size: 14px;
+ }
+
+footer {
+    background-color:black ;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+}
