@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121214;
+    overflow-x: hidden;
+}
+body > img {
+    position: absolute;
+    top: -70px;
+    left: -10px;
+}
+
+header {
+    background-image: url("./assets/background.png");
+    height: 100vh;
+}
+
+header .header {
+   
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header > nav {
+    background-color: #121214;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.header > nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.header > nav > img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header > h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-weight: 800;
+    width: 50%;
+}
+
+.title-color {
+    background-image: linear-gradient(45deg, #0066FF, #FB33FF, #40F4FF);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.header > p {
+    color: #706B6B;
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.projects > h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.projects > .boxs {
+    display: flex;
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+}
+
+.projects > .boxs > .box > a {
+   text-decoration: none;
+
+   
+}
+.bck {
+    position: relative;
+    left: -285px;
+    background-clip: content-box;
+}
+
+.projects > .boxs > .box > a > p {
+   color:white;
+   font-size: 20px;
+   position: relative;
+   bottom:40px;
+   left: 20px;
+ }
